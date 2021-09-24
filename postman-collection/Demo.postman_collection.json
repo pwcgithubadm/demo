@@ -10,7 +10,27 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "http://ec2-18-163-128-214.ap-east-1.compute.amazonaws.com:8081/greeting?name=Bosco",
+					"protocol": "http",
+					"host": [
+						"ec2-18-163-128-214",
+						"ap-east-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "8081",
+					"path": [
+						"greeting"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bosco"
+						}
+					]
+				}
 			},
 			"response": []
 		}
