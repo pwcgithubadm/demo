@@ -11,9 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8081/greeting?name=Bosco",
+					"raw": "http://127.0.0.1:8081/greeting?name=Bosco",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"127",
+						"0",
+						"0",
+						"1"
 					],
 					"port": "8081",
 					"path": [
